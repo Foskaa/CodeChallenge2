@@ -5,15 +5,13 @@ export default function MapSejarah({image, tanggal, deskripsi}) {
 
     return (
         <>
-            <div className="relative h-[900px] lg:h-[750px] w-full">
+            <div className="relative min-h-screen object-cover">
                 <Image
-                    src={image}
+                    src="https://www.tsm.ac.id/wp-content/uploads/2022/07/tsm01.png"
                     alt="image 1"
-                    width={700}
-                    height={700}
-                    className="h-full w-full object-cover object-top"
+                    layout="fill"
                 />
-                <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/40">
+                <div className="absolute inset-0 grid  place-items-center bg-black/40">
                     <div className="w-3/4 text-center md:w-2/4">
                         <Typography
                             variant="h1"
