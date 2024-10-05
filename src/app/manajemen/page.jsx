@@ -13,9 +13,11 @@ const YouTubeVideo = ({ videoId }) => {
     return (
         <div className="flex justify-center mb-4">
             {!isPlaying ? (
-                <img
+                <Image
                     src={`https://img.youtube.com/vi/${videoId}/hqdefault.jpg`} // Custom thumbnail
                     alt="Thumbnail"
+                    width={1500}  // Adjust width as needed
+                    height={1000} // Set a height value (adjust as needed)
                     onClick={handleClick}
                     className="cursor-pointer w-full h-full object-cover" // Adjust styling as needed
                 />

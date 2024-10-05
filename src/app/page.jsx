@@ -10,6 +10,7 @@ import Portalorangtua from './../images/portalorangtua.jpg'
 import { useState } from 'react';
 
 // YouTube Video Component
+// YouTube Video Component
 const YouTubeVideo = ({ videoId }) => {
   const [isPlaying, setIsPlaying] = useState(false);
 
@@ -20,9 +21,11 @@ const YouTubeVideo = ({ videoId }) => {
   return (
     <div className="flex justify-center mb-4">
       {!isPlaying ? (
-        <img
+        <Image
           src={`https://img.youtube.com/vi/${videoId}/hqdefault.jpg`} // Custom thumbnail
           alt="Thumbnail"
+          width={1500}  // Adjust width as needed
+          height={1000} // Set a height value (adjust as needed)
           onClick={handleClick}
           className="cursor-pointer w-[1500px] h-full object-cover" // Adjust styling as needed
         />
@@ -39,6 +42,7 @@ const YouTubeVideo = ({ videoId }) => {
     </div>
   );
 };
+
 
 
 

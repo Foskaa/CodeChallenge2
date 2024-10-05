@@ -53,7 +53,7 @@ export default function Culture() {
                         {
                             item.map((item, index) => {
                                 return (
-                                    <div className='px-5 lg:px-72'>
+                                    <div className='px-5 lg:px-72' key={index}>
                                         <div className="text-white pt-4 lg:pt-10 flex justify-center">
                                             <div className='flex border backdrop-blur-sm bg-black/50 hover:bg-white/50 hover:text-black transition-colors duration-300 ease-in-out skew-y-12 '>
                                                 <div className='font-bold text-5xl lg:text-7xl flex items-center border p-4 -skew-y-12'>
