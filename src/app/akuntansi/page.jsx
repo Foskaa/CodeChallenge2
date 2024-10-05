@@ -3,6 +3,7 @@ import Link from "next/link"
 import Banner from "./../../images/header.png"
 import Image from "next/image"
 import { useState } from 'react';
+import Slide from "./../../images/slide02.webp"
 
 const YouTubeVideo = ({ videoId }) => {
     const [isPlaying, setIsPlaying] = useState(false);
@@ -39,7 +40,7 @@ const YouTubeVideo = ({ videoId }) => {
 export default function Akuntansi() {
     return (
         <>
-            <banner className="relative">
+            <section className="relative">
                 <Image
                     src={Banner}
                     alt="banner heading"
@@ -50,15 +51,13 @@ export default function Akuntansi() {
                         PROGRAM STUDI S1 AKUNTANSI
                     </div>
                 </div>
-            </banner>
+            </section>
 
             <section className="grid grid-cols-2 grid-rows-2 lg:px-80 gap-5 mt-6 ">
                 <div className="col-span-2 flex justify-center">
                     <Image
-                        src="https://www.tsm.ac.id/wp-content/uploads/2021/07/slide02.png" // Replace with your image source
+                        src={Slide} // Replace with your image source
                         alt="Banner Image"
-                        width={900}
-                        height={500}
                     />
                 </div>
                 <YouTubeVideo videoId="UvKsslT7tGM" />

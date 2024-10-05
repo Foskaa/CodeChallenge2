@@ -35,10 +35,6 @@ const items = [
                 key: '7',
                 label: <Link href="/manajemen">Manajemen</Link>,
             },
-            {
-                key: '8',
-                label: <Link href="/logo-tsm">Logo TSM</Link>,
-            },
         ],
     },
     {
@@ -150,7 +146,6 @@ export default function Navbar() {
                                                 <li><Link href="/sejarah-tsm">Sejarah TSM</Link></li>
                                                 <li><Link href="/kultur-nilai">Nilai & Kultur</Link></li>
                                                 <li><Link href="/manajemen">Manajemen</Link></li>
-                                                <li><Link href="/logo-tsm">Logo TSM</Link></li>
                                             </ul>
                                         </details>
                                     </li>

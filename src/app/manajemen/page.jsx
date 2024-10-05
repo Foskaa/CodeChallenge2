@@ -38,7 +38,7 @@ const YouTubeVideo = ({ videoId }) => {
 export default function Manajemen() {
     return (
         <>
-            <banner className="relative">
+            <section className="relative">
                 <Image
                     src={Banner}
                     alt="banner heading"
@@ -49,7 +49,7 @@ export default function Manajemen() {
                         PROGRAM STUDI S1 MANAJEMEN
                     </div>
                 </div>
-            </banner>
+            </section>
 
             <section className="grid grid-cols-2 grid-rows-2 lg:px-80 gap-5 mt-6 ">
                 <div className="col-span-2 flex justify-center">
