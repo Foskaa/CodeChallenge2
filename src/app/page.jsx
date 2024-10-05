@@ -1,3 +1,5 @@
+'use client';
+
 import Image from "next/image";
 import Banner from './../images/banner.webp'
 import Girl from './../images/photo.webp'
@@ -5,6 +7,38 @@ import Akuntansi from './../images/akuntansi.webp'
 import Manajemen from './../images/manajemen.webp'
 import Portalmahasiswa from './../images/portalmahasiswa.png'
 import Portalorangtua from './../images/portalorangtua.jpg'
+import { useState } from 'react';
+
+// YouTube Video Component
+const YouTubeVideo = ({ videoId }) => {
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const handleClick = () => {
+    setIsPlaying(true);
+  };
+
+  return (
+    <div className="flex justify-center mb-4">
+      {!isPlaying ? (
+        <img
+          src={`https://img.youtube.com/vi/${videoId}/hqdefault.jpg`} // Custom thumbnail
+          alt="Thumbnail"
+          onClick={handleClick}
+          className="cursor-pointer w-[1500px] h-full object-cover" // Adjust styling as needed
+        />
+      ) : (
+        <iframe
+          className="w-[300px] h-[180px] lg:w-[600px] lg:h-[360px]"
+          src={`https://www.youtube.com/embed/${videoId}?autoplay=1`} // Load the video
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        />
+      )}
+    </div>
+  );
+};
 
 
 
@@ -28,7 +62,7 @@ export default function Home() {
           />
           <div className="absolute inset-0 bg-black bg-opacity-60 flex justify-center items-center flex-col lg:flex-row px-14 lg:px-28">
             <div>
-              <iframe className="w-[300px] h-[180px] lg:w-[600px] lg:h-[360px]" allowFullScreen src="https://www.youtube.com/embed/76NQlQ5RY1U?si=tPSlc4GA85cSAtZ6" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when- -origin"></iframe>
+              <YouTubeVideo videoId="76NQlQ5RY1U" />
             </div>
             <div className="lg:flex lg:justify-center lg:pl-24 lg:flex-col">
               <div className="text-white text-2xl font-bold lg:text-start text-center pt-3 lg:text-4xl">Kenal Lebih Dekat Dengan Kami</div>
