@@ -20,6 +20,10 @@ import {
 import { Button, Menu } from 'antd';
 const items = [
     {
+        key: '3',
+        label: <Link href="/">HOME</Link>,
+    },
+    {
         key: 'sub1',
         label: 'TENTANG TSM',
         children: [
@@ -36,10 +40,6 @@ const items = [
                 label: <Link href="/manajemen">Manajemen</Link>,
             },
         ],
-    },
-    {
-        key: '3',
-        label: 'TESTIMONI',
     },
     {
         key: 'sub2',
@@ -139,6 +139,7 @@ export default function Navbar() {
                         <div>
                             <div className="navbar-center hidden lg:flex">
                                 <ul className="menu menu-horizontal px-1">
+                                    <li className="font-bold"><Link href="/">HOME</Link></li>
                                     <li>
                                         <details>
                                             <summary className="font-bold">TENTANG TSM</summary>
@@ -149,7 +150,6 @@ export default function Navbar() {
                                             </ul>
                                         </details>
                                     </li>
-                                    <li className="font-bold"><Link href="/testimoni">TESTIMONI</Link></li>
                                     <li>
                                         <details>
                                             <summary className="font-bold">AKADEMIK</summary>

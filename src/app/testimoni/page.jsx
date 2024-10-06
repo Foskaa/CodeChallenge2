@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function Testimoni() {
     return (
         <>
@@ -22,7 +24,12 @@ export default function Testimoni() {
 
                     <div className="flex items-center mt-4">
                         <div className="w-12 h-12 bg-gradient-to-r from-purple-400 to-blue-500 rounded-full flex justify-center items-center">
-                           
+                            <Image
+                                src="https://img.freepik.com/free-photo/serious-young-african-man-standing-isolated_171337-9633.jpg"
+                                height={500}
+                                width={500}
+                                className="object-cover"
+                            />
                         </div>
                         <div className="ml-4">
                             <p className="text-lg font-semibold">Kevin Edrick</p>

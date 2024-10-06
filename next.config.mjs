@@ -13,6 +13,12 @@ const nextConfig = {
                 hostname: 'img.youtube.com',
                 port: '',
                 pathname: '/**'
+            },
+            {
+                protocol: 'https',
+                hostname: 'img.freepik.com',
+                port: '',
+                pathname: '/**'
             }
         ]
     },
