@@ -10,8 +10,8 @@ export default function Testimoni() {
             </section>
 
             <main>
-                <div className="max-w-sm p-6 bg-white rounded-lg border border-gray-300 drop-shadow-lg mx-auto">
-                    <div className="relative bg-blue-500 text-white p-4 rounded-t-lg">
+                <div className="max-w-sm p-6 bg-white rounded-lg border border-gray-300 drop-shadow-lg mx-auto my-14">
+                    <div className="relative bg-neutral-500 text-white p-4 rounded-t-lg">
                         <p className="text-lg italic">There are many benefit that i got from joining TSM.
                             That really directly impact to me, my english skill is much better than 3 years ago (2016).
                             Lot of improvement I felt, now i have more confidence when using english in conversation, presentation

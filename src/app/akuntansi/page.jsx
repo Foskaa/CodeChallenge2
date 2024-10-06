@@ -16,17 +16,17 @@ const YouTubeVideo = ({ videoId }) => {
         <div className="flex justify-center mb-4">
             {!isPlaying ? (
                 <Image
-                    src={`https://img.youtube.com/vi/${videoId}/hqdefault.jpg`} // Custom thumbnail
+                    src={`https://img.youtube.com/vi/${videoId}/hqdefault.jpg`} 
                     alt="Thumbnail"
-                    width={1500}  // Adjust width as needed
-                    height={1000} // Set a height value (adjust as needed)
+                    width={1500} 
+                    height={1000} 
                     onClick={handleClick}
-                    className="cursor-pointer w-full h-full object-cover" // Adjust styling as needed
+                    className="cursor-pointer w-full h-full object-cover" 
                 />
             ) : (
                 <iframe
                     className="w-full h-full"
-                    src={`https://www.youtube.com/embed/${videoId}?autoplay=1`} // Load the video
+                    src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
                     title="YouTube video player"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -44,10 +44,10 @@ export default function Akuntansi() {
                 <Image
                     src={Banner}
                     alt="banner heading"
-                    className="object-cover w-full h-40 lg:h-60 pt-14 lg:pt-24" // Adjust width and height as needed
+                    className="object-cover w-full h-40 lg:h-60 pt-14 lg:pt-24" 
                 />
                 <div className="absolute inset-0 flex items-center justify-center pt-16 lg:pt-32">
-                    <div className="text-white p-4 font-bold text-2xl lg:text-4xl flex"> {/* Optional background for text */}
+                    <div className="text-white p-4 font-bold text-2xl lg:text-4xl flex"> 
                         PROGRAM STUDI S1 AKUNTANSI
                     </div>
                 </div>
@@ -56,7 +56,7 @@ export default function Akuntansi() {
             <section className="grid grid-cols-2 grid-rows-2 lg:px-80 gap-5 mt-6 ">
                 <div className="col-span-2 flex justify-center">
                     <Image
-                        src={Slide} // Replace with your image source
+                        src={Slide} 
                         alt="Banner Image"
                     />
                 </div>

@@ -140,7 +140,7 @@ export default function Home() {
           />
           <div className="absolute flex-col gap-10 inset-0 hover:bg-black rounded-2xl hover:bg-opacity-40 flex justify-center items-center">
             <p className="text-white text-xl lg:text-3xl font-bold">Portal Mahasiswa</p>
-            <button className="btn btn-outline border-white text-white w-40 hover:bg-white hover:text-black">LOGIN</button>
+            <button className="btn btn-outline border-white text-white w-40 hover:bg-white hover:text-black"><Link href="/login-mhs">LOGIN</Link></button>
           </div>
         </div>
 
@@ -152,7 +152,7 @@ export default function Home() {
           />
           <div className="absolute flex-col gap-10 inset-0 hover:bg-black hover:bg-opacity-40 rounded-2xl flex justify-center items-center">
             <div className="text-white text-xl lg:text-3xl font-bold">Portal Orang Tua</div>
-            <button className="btn btn-outline border-white text-white w-40 hover:bg-white hover:text-black">LOGIN</button>
+            <button className="btn btn-outline border-white text-white w-40 hover:bg-white hover:text-black"><Link href="/login-ot">LOGIN</Link></button>
 
           </div>
         </div>

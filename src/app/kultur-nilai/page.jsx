@@ -34,7 +34,7 @@ export default function Culture() {
 
         <>
             <>
-                <div className="relative h-[1100px] lg:h-[1200px] w-full">
+                <div className="relative h-[1200px] lg:h-[1200px] w-full">
                     <Image
                         src={Kultur}
                         alt="image 1"
