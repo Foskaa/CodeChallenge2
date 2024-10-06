@@ -129,6 +129,8 @@ export default function Navbar() {
                             <Image
                                 src={Logoatas} // Using the imported image
                                 alt="logo atas"
+                                width={270} 
+                                height={50} 
                                 className="w-[270px]"
                                 priority={true}
                             />

@@ -64,6 +64,7 @@ export default function Home() {
             src={Girl}
             alt="Banner"
             className="h-[600px] w-full object-cover relative"
+            priority
           />
           <div className="absolute inset-0 bg-black bg-opacity-60 flex justify-center items-center flex-col lg:flex-row px-14 lg:px-28">
             <div>
