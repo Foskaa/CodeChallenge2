@@ -58,6 +58,7 @@ export default function Akuntansi() {
                     <Image
                         src={Slide} 
                         alt="Banner Image"
+                        priority
                     />
                 </div>
                 <YouTubeVideo videoId="UvKsslT7tGM" />

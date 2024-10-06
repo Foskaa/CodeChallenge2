@@ -58,6 +58,7 @@ export default function Manajemen() {
                         alt="Banner Image"
                         width={900}
                         height={500}
+                        priority
                     />
                 </div>
                 <YouTubeVideo videoId="RFDYgFm6hww" />
