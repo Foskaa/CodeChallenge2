@@ -49,7 +49,7 @@ const YouTubeVideo = ({ videoId }) => {
 
 export default function Home() {
   return (
-    <main className="pt-11 lg:pt-0">
+    <main className="pt-11 lg:pt-0 bg-white">
       <section id="banner">
         <Image
           src={Banner}
