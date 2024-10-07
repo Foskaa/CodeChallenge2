@@ -73,11 +73,20 @@ export default function Home() {
           alt="Banner"
           loading="lazy"
           className="flex"
+          decoding="async"
+          srcSet={`
+    /_next/image?url=${Banner}&w=640&q=75 640w,
+    /_next/image?url=${Banner}&w=1280&q=75 1280w,
+    /_next/image?url=${Banner}&w=1920&q=75 1920w,
+    /_next/image?url=${Banner}&w=3840&q=75 3840w
+  `}
+          sizes="(max-width: 640px) 640px, (max-width: 1280px) 1280px, (max-width: 1920px) 1920px, 100vw"
+
         />
       </section>
 
       <section>
-        <div className="relative w-full h-[500px] z-10">
+        <div className="relative w-full md:h-[600px] lg:h-[500px] h-[700px] z-10">
           <div className="absolute inset-0 bg-black bg-opacity-60 flex justify-center items-center flex-col lg:flex-row px-14 lg:px-28">
             <div>
               <YouTubeVideo videoId="76NQlQ5RY1U" />
@@ -200,6 +209,13 @@ export default function Home() {
               src={Akuntansi}
               alt="Akuntansi"
               loading="lazy"
+              width={800}
+              height={533}
+              srcSet={`
+    /_next/image?url=${Akuntansi}&w=400&q=75 400w,
+    /_next/image?url=${Akuntansi}&w=800&q=75 800w
+  `}
+              sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 100vw"
             />
           </figure>
           <div className="card-body">
@@ -243,8 +259,15 @@ export default function Home() {
           <Image
             src={Portalmahasiswa}
             alt="Portal Mahasiswa"
-            className="rounded-2xl"
             loading="lazy"
+            width={754}
+            height={552}
+            className="rounded-2xl"
+            srcSet={`
+    /_next/image?url=${Portalmahasiswa}&w=400&q=75 400w,
+    /_next/image?url=${Portalmahasiswa}&w=754&q=75 754w
+  `}
+            sizes="(max-width: 400px) 400px, (max-width: 754px) 754px, 100vw"
           />
           <div className="absolute flex-col gap-10 inset-0 hover:bg-black rounded-2xl hover:bg-opacity-40 flex justify-center items-center">
             <p className="text-white text-xl lg:text-3xl font-bold">Portal Mahasiswa</p>

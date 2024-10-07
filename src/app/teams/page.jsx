@@ -21,19 +21,46 @@
 //     useEffect(() => {
 //         onFetchData()
 //     }, [])
-    
+
 //     return (
 //         <>
-        
-            
+
+
 //         </>
 //     )
 // }
 
-export default function Teams() {
+const fetchData = async () => {
+    try {
+        let res = await fetch('https://randomuser.me/api?results=6',
+            {
+                cache: 'force-cache',
+                next: {
+                    revalidate: 5
+                }
+            }
+        )
+        res = await res.json()
+        return res.results
+    } catch (error) {
+        console.log(error)
+
+    }
+
+}
+export default async function Teams() {
+    const dataUser = await fetchData()
+    
+console.log(dataUser)
     return (
         <>
-        <h1>testing</h1>
+           {
+                dataUser.map((item, index) => {
+                    return (
+                        <div>{item.gender}</div>
+                    )
+                })
+            } 
         </>
     )
 }
