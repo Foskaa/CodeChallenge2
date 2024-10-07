@@ -57,7 +57,7 @@ console.log(dataUser)
            {
                 dataUser.map((item, index) => {
                     return (
-                        <div>{item.gender}</div>
+                        <div key={index}>{item.gender}</div>
                     )
                 })
             } 
