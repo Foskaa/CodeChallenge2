@@ -12,7 +12,7 @@
 //         try {
 //             const res = await axios.get('https://randomuser.me/api?results=6')
 //             const response = res.data.results
-//             dispatch(setUser(response)) 
+//             dispatch(setUser(response))
 //         } catch (error) {
 //             console.log(error)
 //         }
@@ -29,3 +29,11 @@
 //         </>
 //     )
 // }
+
+export default function Teams() {
+    return (
+        <>
+        <h1>testing</h1>
+        </>
+    )
+}
