@@ -50,7 +50,7 @@ const YouTubeVideo = ({ videoId }) => {
       ) : (
         <iframe
           className="w-[300px] h-[180px] lg:w-[600px] lg:h-[360px]"
-          src={`https://www.youtube.com/embed/${videoId}?autoplay=1`} // Load the video
+          src={`https://www.youtube.com/embed/${videoId}?autoplay=1`} 
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -81,8 +81,9 @@ export default function Home() {
           <Image
             src={Girl}
             alt="Banner"
-            className="h-[600px] w-full object-cover relative"
-            priority
+            className="h-[600px] object-cover relative"
+            loading="lazy"
+            decoding="async"
           />
           <div className="absolute inset-0 bg-black bg-opacity-60 flex justify-center items-center flex-col lg:flex-row px-14 lg:px-28">
             <div>
@@ -206,6 +207,14 @@ export default function Home() {
               src={Akuntansi}
               alt="Akuntansi"
               loading="lazy"
+              srcSet={`
+      ${Banner}?w=640 640w,
+      ${Banner}?w=1280 1280w,
+      ${Banner}?w=1920 1920w
+    `}
+              sizes="(max-width: 640px) 640px,
+           (max-width: 1280px) 1280px,
+           1920px"
             />
           </figure>
           <div className="card-body">
@@ -224,6 +233,14 @@ export default function Home() {
               src={Manajemen}
               alt="Manajemen"
               loading="lazy"
+              srcSet={`
+      ${Banner}?w=640 640w,
+      ${Banner}?w=1280 1280w,
+      ${Banner}?w=1920 1920w
+    `}
+              sizes="(max-width: 640px) 640px,
+           (max-width: 1280px) 1280px,
+           1920px"
             />
           </figure>
           <div className="card-body">
@@ -251,6 +268,14 @@ export default function Home() {
             alt="Portal Mahasiswa"
             className="rounded-2xl"
             loading="lazy"
+            srcSet={`
+      ${Banner}?w=640 640w,
+      ${Banner}?w=1280 1280w,
+      ${Banner}?w=1920 1920w
+    `}
+            sizes="(max-width: 640px) 640px,
+           (max-width: 1280px) 1280px,
+           1920px"
           />
           <div className="absolute flex-col gap-10 inset-0 hover:bg-black rounded-2xl hover:bg-opacity-40 flex justify-center items-center">
             <p className="text-white text-xl lg:text-3xl font-bold">Portal Mahasiswa</p>
@@ -264,6 +289,14 @@ export default function Home() {
             alt="Portal Orangtua"
             className="rounded-2xl"
             loading="lazy"
+            srcSet={`
+      ${Banner}?w=640 640w,
+      ${Banner}?w=1280 1280w,
+      ${Banner}?w=1920 1920w
+    `}
+            sizes="(max-width: 640px) 640px,
+           (max-width: 1280px) 1280px,
+           1920px"
           />
           <div className="absolute flex-col gap-10 inset-0 hover:bg-black hover:bg-opacity-40 rounded-2xl flex justify-center items-center">
             <div className="text-white text-xl lg:text-3xl font-bold">Portal Orang Tua</div>

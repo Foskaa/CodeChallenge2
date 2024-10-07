@@ -1,4 +1,3 @@
-import { Input } from "postcss"
 import Logo from "./../../images/logobawahhitam.svg"
 import Image from "next/image"
 

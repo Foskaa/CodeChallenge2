@@ -7,17 +7,9 @@ import { useState } from 'react';
 import { Drawer, Space } from 'antd';
 import { GiHamburgerMenu } from "react-icons/gi";
 import Logoatas from "@/images/logoatas.webp"
-import {
-    AppstoreOutlined,
-    ContainerOutlined,
-    DesktopOutlined,
-    MailOutlined,
-    MenuFoldOutlined,
-    MenuUnfoldOutlined,
-    PieChartOutlined,
-} from '@ant-design/icons';
 
-import { Button, Menu } from 'antd';
+
+import { Menu } from 'antd';
 const items = [
     {
         key: '3',
