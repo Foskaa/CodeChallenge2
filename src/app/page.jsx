@@ -1,7 +1,6 @@
 'use client';
 
 import Image from "next/image";
-import Banner from './../images/banner.webp'
 import Girl from './../images/photo.webp'
 import Akuntansi from './../images/akuntansi.webp'
 import Manajemen from './../images/manajemen.webp'
@@ -9,6 +8,7 @@ import Portalmahasiswa from './../images/portalmahasiswa.png'
 import Portalorangtua from './../images/portalorangtua.jpg'
 import { useState } from 'react';
 import Link from "next/link";
+import BannerSection from "@/features/home/components/bannersection";
 
 // YouTube Video Component
 // YouTube Video Component
@@ -67,23 +67,7 @@ const YouTubeVideo = ({ videoId }) => {
 export default function Home() {
   return (
     <main className="pt-11 lg:pt-0 bg-white">
-      <section id="banner">
-        <Image
-          src={Banner}
-          alt="Banner"
-          loading="lazy"
-          className="flex"
-          decoding="async"
-          srcSet={`
-    /_next/image?url=${Banner}&w=640&q=75 640w,
-    /_next/image?url=${Banner}&w=1280&q=75 1280w,
-    /_next/image?url=${Banner}&w=1920&q=75 1920w,
-    /_next/image?url=${Banner}&w=3840&q=75 3840w
-  `}
-          sizes="(max-width: 640px) 640px, (max-width: 1280px) 1280px, (max-width: 1920px) 1920px, 100vw"
-
-        />
-      </section>
+      <BannerSection />
 
       <section>
         <div className="relative w-full md:h-[600px] lg:h-[500px] h-[700px] z-10">

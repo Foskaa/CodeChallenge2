@@ -3,6 +3,7 @@ import "./globals.css";
 import Footer from "@/components/cores/Navbar/page";
 import Navbar from "@/components/cores/Footer/page";
 import ReduxProvider from "@/providers/ReduxProvider";
+import HOCLoading from "@/components/cores/HOCLoading";
 
 
 const geistSans = localFont({
@@ -28,9 +29,12 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {/* <ReduxProvider> */}
-          <Footer />
+        <HOCLoading>  
+        <Footer />
+          
           {children}
           <Navbar />
+        </HOCLoading>
         {/* </ReduxProvider> */}
       </body>
     </html>
