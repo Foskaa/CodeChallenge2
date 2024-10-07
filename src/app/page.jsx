@@ -54,6 +54,7 @@ export default function Home() {
         <Image
           src={Banner}
           alt="Banner"
+          loading="lazy"
           className="flex"
         />
       </section>
@@ -88,20 +89,8 @@ export default function Home() {
         <span className="flex-grow border-b border-gray-400"></span>
       </div>
 
-      
-
-
-
-
-
-
-
-
-
-
-
-      <main className="flex flex-col lg:flex-row items-center">
-        <div className="max-w-sm p-6 bg-white rounded-lg border border-gray-300 drop-shadow-lg mx-auto my-4 lg:my-14">
+      <main className="flex flex-col lg:flex-row md:px-4 items-center">
+        <div className="sm:lg:max-w-sm p-6 bg-white rounded-lg border border-gray-300 drop-shadow-lg mx-auto my-4 lg:my-14">
           <div className="relative bg-neutral-500 text-white p-4 rounded-t-lg">
             <p className="text-lg italic">There are many benefit that i got from joining TSM.
               That really directly impact to me, my english skill is much better than 3 years ago (2016).
@@ -123,11 +112,11 @@ export default function Home() {
             </div>
             <div className="ml-4">
               <p className="text-lg font-semibold">Kevin Edrick</p>
-              <p className="text-gray-500">(Batch 2016)</p>
+              <p className="text-black">(Batch 2016)</p>
             </div>
           </div>
         </div>
-        <div className="max-w-sm p-6 bg-white rounded-lg border border-gray-300 drop-shadow-lg mx-auto my-4 lg:my-14">
+        <div className="sm:lg:max-w-sm p-6 bg-white rounded-lg border border-gray-300 drop-shadow-lg mx-auto my-4 lg:my-14">
           <div className="relative bg-neutral-500 text-white p-4 rounded-t-lg">
             <p className="text-lg italic">I get a lot of experience while I’m in TSM. The lecturers in TSM are super supportive, it is more important to us the be brave and speak up for ourselves instead of the grammar we’re using. This is a great opportunity for us to join international class because where else can we get such opportunities and partners to do a conversation in English while carrying out our obligation as students.”
             </p>
@@ -145,7 +134,29 @@ export default function Home() {
             </div>
             <div className="ml-4">
               <p className="text-lg font-semibold">Sherlia Lie</p>
-              <p className="text-gray-500">(Batch 2018)</p>
+              <p className="text-black">(Batch 2018)</p>
+            </div>
+          </div>
+        </div>
+        <div className="sm:lg:max-w-sm p-6 bg-white rounded-lg border border-gray-300 drop-shadow-lg mx-auto my-4 lg:my-14">
+          <div className="relative bg-neutral-500 text-white p-4 rounded-t-lg">
+            <p className="text-lg italic">Our campus is a great place to learn and grow. The facilities are modern, and the library and labs help students succeed in their studies. The green spaces around the campus make it a calm and relaxing place to spend time. The friendly community here makes it easy to meet new people and feel at home. I’ve had a wonderful experience and feel well-supported both academically and personally.
+            </p>
+          </div>
+
+          <div className="flex items-center mt-4">
+            <div className="w-12 h-12 bg-gradient-to-r from-purple-400 to-blue-500 rounded-full flex justify-center items-center overflow-hidden">
+              <Image
+                src="https://img.freepik.com/premium-photo/young-happy-asian-student-headshot-attractive-smiling-asian-woman-with-friends-university_817921-1863.jpg"
+                alt="sherlia"
+                height={100}
+                width={100}
+                className="object-cover w-full h-full "
+              />
+            </div>
+            <div className="ml-4">
+              <p className="text-lg font-semibold">Ellen</p>
+              <p className="text-black">(Batch 2019)</p>
             </div>
           </div>
         </div>
@@ -177,6 +188,7 @@ export default function Home() {
             <Image
               src={Akuntansi}
               alt="Akuntansi"
+              loading="lazy"
             />
           </figure>
           <div className="card-body">
@@ -194,6 +206,7 @@ export default function Home() {
             <Image
               src={Manajemen}
               alt="Manajemen"
+              loading="lazy"
             />
           </figure>
           <div className="card-body">
@@ -220,6 +233,7 @@ export default function Home() {
             src={Portalmahasiswa}
             alt="Portal Mahasiswa"
             className="rounded-2xl"
+            loading="lazy"
           />
           <div className="absolute flex-col gap-10 inset-0 hover:bg-black rounded-2xl hover:bg-opacity-40 flex justify-center items-center">
             <p className="text-white text-xl lg:text-3xl font-bold">Portal Mahasiswa</p>
@@ -232,6 +246,7 @@ export default function Home() {
             src={Portalorangtua}
             alt="Portal Orangtua"
             className="rounded-2xl"
+            loading="lazy"
           />
           <div className="absolute flex-col gap-10 inset-0 hover:bg-black hover:bg-opacity-40 rounded-2xl flex justify-center items-center">
             <div className="text-white text-xl lg:text-3xl font-bold">Portal Orang Tua</div>
