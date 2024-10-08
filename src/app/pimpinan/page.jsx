@@ -102,7 +102,7 @@ export default async function Teams() {
                                         className="rounded-l-lg border border-neutral-300"
                                     />
                                 </div>
-                                <div className="bg-neutral-500 w-[500px] relative rounded-r-lg">
+                                <div className="bg-neutral-500 w-[500px] relative rounded-r-lg drop-shadow-2xl">
                                     <div className="px-6 pt-6 text-white font-bold text-xl">
                                         {item.name.first} {item.name.last}
                                     </div>
