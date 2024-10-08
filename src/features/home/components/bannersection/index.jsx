@@ -10,6 +10,7 @@ export default function BannerSection() {
                 loading="lazy"
                 className="flex"
                 decoding="async"
+                priority={true}
                 width={1536}
                 height={786}
                 srcSet={`

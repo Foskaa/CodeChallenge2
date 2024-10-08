@@ -134,6 +134,8 @@ export default function Home() {
               loading="lazy"
               width={800}
               height={533}
+              decoding="async"
+              priority 
               srcSet={`
     /_next/image?url=${Akuntansi}&w=400&q=75 400w,
     /_next/image?url=${Akuntansi}&w=800&q=75 800w
@@ -157,6 +159,7 @@ export default function Home() {
               src={Manajemen}
               alt="Manajemen"
               loading="lazy"
+              decoding="async"
             />
           </figure>
           <div className="card-body">
