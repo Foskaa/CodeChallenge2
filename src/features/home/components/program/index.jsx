@@ -5,13 +5,7 @@ import Manajemen from '@/images/manajemen.webp'
 
 export default function Program() {
     return (
-        <>
-            <div className="flex items-center py-10 lg:py-0 lg:pt-28">
-                <span className="flex-grow border-b border-gray-400"></span>
-                <span className="mx-2 font-bold text-2xl text-gray-700">PROGRAM KAMI</span>
-                <span className="flex-grow border-b border-gray-400"></span>
-            </div>
-
+        <main>
             <section id="program" className="grid lg:grid-cols-2 lg:gap-6 px-6 gap-8 lg:px-36 lg:py-14" >
                 <div className="card bg-neutral-700 text-white shadow-xl">
                     <figure>
@@ -56,7 +50,6 @@ export default function Program() {
                     </div>
                 </div>
             </section >
-
-        </>
+        </main>
     )
 }

@@ -8,14 +8,7 @@ import Portalorangtua from '@/images/portalorangtua.jpg'
 export default function Portal() {
     return (
         <>
-
-            <div className="flex items-center py-10 lg:py-0 lg:pt-24">
-                <span className="flex-grow border-b border-gray-400"></span>
-                <span className="mx-2 font-bold text-2xl text-gray-700">PORTAL AKADEMIK</span>
-                <span className="flex-grow border-b border-gray-400"></span>
-            </div>
-
-            <main className="grid lg:grid-cols-2 lg:gap-6 gap-5 px-5 lg:px-gap-8 lg:px-36 pb-5 lg:py-14 z-10">
+            <div className="grid lg:grid-cols-2 lg:gap-6 gap-5 px-5 lg:px-gap-8 lg:px-36 pb-5 lg:py-14 z-10">
                 <div className="relative">
                     <Image
                         src={Portalmahasiswa}
@@ -49,7 +42,8 @@ export default function Portal() {
 
                     </div>
                 </div>
-            </main>
+            </div>
+
         </>
     )
 }

@@ -19,6 +19,12 @@ const nextConfig = {
                 hostname: 'img.freepik.com',
                 port: '',
                 pathname: '/**'
+            },
+            {
+                protocol: 'https',
+                hostname: 'randomuser.me',
+                port: '',
+                pathname: '/api/**'
             }
         ]
     },

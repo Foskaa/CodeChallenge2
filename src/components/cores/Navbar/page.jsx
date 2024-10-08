@@ -29,7 +29,7 @@ const items = [
             },
             {
                 key: '7',
-                label: <Link href="/manajemen">Manajemen</Link>,
+                label: <Link href="/pinpinan">Pimpinan</Link>,
             },
         ],
     },
@@ -140,7 +140,7 @@ export default function Navbar() {
                                             <ul className="p-2 text-black w-60">
                                                 <li><Link href="/sejarah-tsm">Sejarah TSM</Link></li>
                                                 <li><Link href="/kultur-nilai">Nilai & Kultur</Link></li>
-                                                <li><Link href="/manajemen">Manajemen</Link></li>
+                                                <li><Link href="/pimpinan">Pimpinan</Link></li>
                                             </ul>
                                         </details>
                                     </li>
