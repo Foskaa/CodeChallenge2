@@ -23,7 +23,7 @@ export default function Youtube({videoId}) {
                         <div className="absolute inset-0 flex justify-center items-center">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                className="h-20 w-20 text-white opacity-80"
+                                className="h-10 w-10 text-white opacity-80"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor"

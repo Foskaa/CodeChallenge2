@@ -117,7 +117,7 @@ export default function InternationalClass() {
 
 
 
-            <section className="lg:px-80 mt-6 flex justify-center">
+            <section className="lg:px-80 mt-6 mb-6 flex justify-center">
                 <button className=" font-bold border border-black bg-white text-black hover:bg-black transition-colors duration-300 hover:text-white p-3 ">
                     DAFTAR SEKARANG
                 </button>
