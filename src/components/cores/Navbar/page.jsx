@@ -29,7 +29,7 @@ const items = [
             },
             {
                 key: '7',
-                label: <Link href="/pinpinan">Pimpinan</Link>,
+                label: <Link href="/pimpinan">Pimpinan</Link>,
             },
         ],
     },
