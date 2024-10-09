@@ -40,7 +40,7 @@ export default function Home() {
             className="rounded-2xl"
           />
         </div>
-        <div className='col-span-2 flex justify-center flex-col items-center px-10 text-center'>
+        <div className='col-span-2 flex justify-center flex-col items-center px-10 text-center text-black'>
           <div className='font-bold py-5 text-4xl'>
             Mengapa Kami?
           </div>
