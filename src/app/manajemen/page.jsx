@@ -104,6 +104,29 @@ export default function Manajemen() {
                 </div>
             </section>
 
+            <section className="lg:px-80 text-center mt-10 font-bold text-2xl">
+                TESTIMONI
+            </section>
+
+            <section className="lg:px-80 mt-6">
+                <div className="join join-vertical w-full">
+                    <div className="collapse collapse-arrow join-item border-base-300 border">
+                        <input type="radio" name="my-accordion-4" defaultChecked />
+                        <div className="collapse-title text-xl font-bold">Bobby Sudiharto (Batch 2015)</div>
+                        <div className="collapse-content">
+                            <p>"Saya memilih jurusan Manajemen di TSM karena kurikulumnya sangat relevan dengan kebutuhan industri saat ini. Selain itu, dosen-dosennya berpengalaman dan selalu memberikan pembelajaran yang aplikatif. Saya merasa kemampuan manajerial dan analisis saya sangat berkembang di sini. Fasilitas kampusnya juga mendukung proses belajar, dan banyak program magang yang membantu saya mendapatkan pengalaman langsung di dunia kerja."</p>
+                        </div>
+                    </div>
+                    <div className="collapse collapse-arrow join-item border-base-300 border">
+                        <input type="radio" name="my-accordion-4" />
+                        <div className="collapse-title text-xl font-bold">Lavenia (Batch 2015)</div>
+                        <div className="collapse-content">
+                            <p>"Belajar di jurusan Manajemen di TSM telah memberi saya banyak wawasan tentang bagaimana mengelola bisnis secara efektif, dari aspek perencanaan hingga pengambilan keputusan strategis. Lingkungan akademiknya kondusif, dan banyak seminar serta pelatihan yang membantu saya mengembangkan soft skills seperti kepemimpinan dan komunikasi. Saya juga merasa jaringan alumni TSM sangat kuat, sehingga membuka banyak peluang karier setelah lulus."</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section className="lg:px-80 mt-6 flex justify-center mb-5">
                 <button className="font-bold bg-white border border-black text-black hover:bg-black transition-colors duration-300 hover:text-white p-3">
                     DAFTAR SEKARANG

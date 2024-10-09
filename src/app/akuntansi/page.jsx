@@ -103,6 +103,29 @@ export default function Akuntansi() {
                 </div>
             </section>
 
+            <section className="lg:px-80 text-center mt-10 font-bold text-2xl">
+                TESTIMONI
+            </section>
+
+            <section className="lg:px-80 mt-6">
+                <div className="join join-vertical w-full">
+                    <div className="collapse collapse-arrow join-item border-base-300 border">
+                        <input type="radio" name="my-accordion-4" defaultChecked />
+                        <div className="collapse-title text-xl font-bold">Yeni Saputri (Batch 2015)</div>
+                        <div className="collapse-content">
+                            <p>"Saya merasa beruntung bisa kuliah di jurusan Akuntansi TSM. Kurikulumnya sangat mendalam dan komprehensif, mencakup berbagai aspek akuntansi seperti perpajakan, auditing, dan manajemen keuangan. Dosen-dosennya profesional dan sangat membantu dalam menjelaskan konsep yang sulit dengan cara yang mudah dipahami. Setelah mengikuti beberapa program magang yang difasilitasi oleh kampus, saya merasa lebih siap untuk menghadapi dunia kerja dan percaya diri dengan kemampuan saya."</p>
+                        </div>
+                    </div>
+                    <div className="collapse collapse-arrow join-item border-base-300 border">
+                        <input type="radio" name="my-accordion-4" />
+                        <div className="collapse-title text-xl font-bold">Messy Novira (Batch 2015)</div>
+                        <div className="collapse-content">
+                            <p>"Kuliah di Akuntansi TSM benar-benar membekali saya dengan pengetahuan teknis dan praktis yang diperlukan di dunia akuntansi. Saya mendapatkan pemahaman yang kuat tentang standar akuntansi internasional dan bagaimana menerapkannya dalam situasi nyata. Selain itu, kampus sering mengadakan workshop dan sertifikasi profesional yang sangat berguna untuk meningkatkan daya saing saya di pasar kerja. Saya yakin pilihan saya untuk belajar di TSM adalah keputusan yang tepat."</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section className="lg:px-80 mt-6 flex justify-center mb-5">
                 <button className="font-bold border border-black bg-white text-black hover:bg-black transition-colors duration-300 hover:text-white p-3">
                     DAFTAR SEKARANG
