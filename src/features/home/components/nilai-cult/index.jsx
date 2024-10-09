@@ -39,12 +39,14 @@ export default function Youtube({videoId}) {
                     </div>
                 ) : (
                     <iframe
-                        className="w-[300px] h-[180px] lg:w-[600px] lg:h-[360px]"
-                        src={`https://www.youtube.com/embed/${videoId}?autoplay=1`} // Load the video
-                        title="YouTube video player"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
+                            width="600%" // Make the iframe responsive
+                            height="315"
+                            src="https://www.youtube.com/embed/76NQlQ5RY1U"
+                            title="YouTube video player"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+
                     />
                 )}
             </div>

@@ -24,11 +24,11 @@ export default function Home() {
 
       <section>
         <div className="relative w-full md:h-[600px] lg:h-[500px] h-[700px] z-10">
-          <div className="absolute inset-0 bg-black bg-opacity-60 flex justify-center items-center flex-col lg:flex-row px-14 lg:px-28">
+          <div className="absolute inset-0 bg-black bg-opacity-60 grid grid-rows-2 justify-center lg:grid lg:grid-cols-3 items-center flex-col lg:flex-row px-14 lg:pt-32 lg:px-28">
             <div>
               <Youtube videoId="76NQlQ5RY1U" />
             </div>
-            <div className="lg:flex lg:justify-center lg:pl-24 lg:flex-col">
+            <div className="lg:col-span-2 grid grid-rows-1 justify-center lg:pl-24 ">
               <div className="text-white text-2xl font-bold lg:text-start text-center pt-3 lg:text-4xl">Kenal Lebih Dekat Dengan Kami</div>
               <div className="text-white text-md pt-6 text-xs lg:text-xl lg:text-start leading-loose lg:leading-10 text-center">Sesuai Nilai & Kultur Sekolah Tinggi Ilmu Ekonomi Trisakti, Kami akan terus berupaya menyelenggarakan pendidikan tinggi secara profesional yang berkualitas internasional, sehingga menghasilkan lulusan yang kompeten, berdaya saing, dan berkarakter unggul.
               </div>
@@ -117,7 +117,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>          
+      </div>
 
       <div className="flex items-center py-10 lg:py-0 lg:pt-28">
         <span className="flex-grow border-b border-gray-400"></span>
@@ -135,12 +135,12 @@ export default function Home() {
               width={500}
               height={333}
               className="w-full h-auto"
-              decoding="async" 
+              decoding="async"
               srcSet={`
     /_next/image?url=${Akuntansi}&w=400&q=75 400w,
     /_next/image?url=${Akuntansi}&w=800&q=75 800w
   `}
-             
+
               sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 100vw"
             />
           </figure>
