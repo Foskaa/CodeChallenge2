@@ -127,7 +127,7 @@ export default function Home() {
         <div className="card bg-neutral-700 text-white shadow-xl">
           <figure>
             <Image
-              src='https://www.tsm.ac.id/wp-content/uploads/2023/10/akuntansi-e1582240511286-rev.webp'
+              src='{Akuntansi}'
               alt="Akuntansi"
               loading="lazy"
               width={410}
