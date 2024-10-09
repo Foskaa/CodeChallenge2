@@ -21,7 +21,7 @@ export default function Home() {
       <BannerSection />
 
 
-      <section className='grid grid-cols-2 lg:grid-cols-4 px-10 '>
+      <section id='MengapaKami' className='grid grid-cols-2 lg:grid-cols-4 px-10 '>
 
         <div className='hidden md:flex lg:flex items-center pb-10 justify-end'>
           <Image
@@ -80,9 +80,7 @@ export default function Home() {
       </section>
 
 
-
-
-      <section>
+      <section id='kultur'>
         <div className="relative w-full md:h-[900px] lg:h-[500px] h-[650px] z-10">
           <div className="absolute inset-0 bg-black bg-opacity-60 grid grid-rows-2 justify-center lg:grid lg:grid-cols-3 items-center flex-col lg:flex-row px-14 md:pt-28 lg:pt-32 lg:px-28">
             <div>
@@ -106,7 +104,7 @@ export default function Home() {
         <span className="flex-grow border-b border-gray-400"></span>
       </div>
 
-      <div className="flex flex-col lg:flex-row md:px-4 items-center">
+      <div id='testimoni' className="flex flex-col lg:flex-row md:px-4 items-center">
         <div className="sm:lg:max-w-sm p-6 bg-white rounded-lg border border-gray-300 drop-shadow-lg mx-auto my-4 lg:my-14">
           <div className="relative bg-neutral-500 text-white p-4 rounded-t-lg">
             <p className="text-lg italic">There are many benefit that i got from joining TSM.
@@ -240,7 +238,7 @@ export default function Home() {
         <span className="flex-grow border-b border-gray-400"></span>
       </div>
 
-      <div className="grid lg:grid-cols-2 lg:gap-6 gap-5 px-5 lg:px-gap-8 lg:px-36 pb-5 lg:py-14 z-10">
+      <div id='portalLogin'className="grid lg:grid-cols-2 lg:gap-6 gap-5 px-5 lg:px-gap-8 lg:px-36 pb-5 lg:py-14 z-10">
         <div className="relative">
           <Image
             src={Portalmahasiswa}
