@@ -93,7 +93,7 @@ export default function Home() {
               <div className="text-white text-md pt-6 text-xs lg:text-xl lg:text-start leading-loose lg:leading-10 text-center">Sesuai Nilai & Kultur Sekolah Tinggi Ilmu Ekonomi Trisakti, Kami akan terus berupaya menyelenggarakan pendidikan tinggi secara profesional yang berkualitas internasional, sehingga menghasilkan lulusan yang kompeten, berdaya saing, dan berkarakter unggul.
               </div>
               <div className="flex justify-center lg:justify-start">
-                <Link href="/kultur-nilai"><button className=" w-[60%] lg:w-[100%] flex justify-center rounded-md p-2 lg:p-2 border mt-5 mb-5 font-bold border-white text-white text-sm hover:bg-white hover:text-black transition-colors duration-300">LIHAT LEBIH LANJUT</button></Link>
+                <Link href="/kultur-nilai"><button className=" w-[100%] lg:w-[100%] flex justify-center rounded-md p-2 lg:p-2 border mt-5 mb-5 font-bold border-white text-white text-sm hover:bg-white hover:text-black transition-colors duration-300">LIHAT LEBIH LANJUT</button></Link>
               </div>
             </div>
           </div>
