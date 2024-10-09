@@ -41,7 +41,7 @@ export default function Youtube({videoId}) {
                     <iframe
                             width="600%" // Make the iframe responsive
                             height="315"
-                            src="https://www.youtube.com/embed/76NQlQ5RY1U"
+                            src={`https://www.youtube.com/embed/${videoId}`}
                             title="YouTube video player"
                             frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
