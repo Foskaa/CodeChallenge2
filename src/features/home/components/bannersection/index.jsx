@@ -5,11 +5,11 @@ export default function BannerSection() {
     return (
         <section id="banner">
             <Image
-                src={Banner}
+                src='https://www.tsm.ac.id/wp-content/uploads/2024/06/SLIDER-promo-kelas-karyawan-1536x786.jpg'
                 alt="Banner"
                 className="flex"
                 decoding="async"
-                priority={true}
+                priority
                 width={1400}
                 height={716}
                 srcSet={`
