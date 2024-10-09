@@ -78,7 +78,7 @@ export default function Navbar() {
         <>
             <div className="fixed z-50 w-full">
                 <section id='Top Navbar' className="hidden lg:flex px-10 py-1 lg:py-2 lg:w-[400px]] bg-neutral-800 text-xs text-white justify-end items gap-5">
-                    <button className="rounded-md bg-blue-600 text-white px-1">Daftar Sekarang</button>
+                    <button className="rounded-md bg-blue-600 text-black px-1">Daftar Sekarang</button>
                     <div className="flex items-center gap-1"><FaPhone />(021) 566-6717</div>
                     <div className="flex items-center gap-1"><IoMdMailOpen />pmb@stietrisakti.ac.id</div>
                 </section>

@@ -22,10 +22,11 @@ export default function Home() {
 
 
       <section className='grid grid-cols-2 lg:grid-cols-4 px-10 '>
-        
+
         <div className='hidden md:flex lg:flex items-center pb-10 justify-end'>
           <Image
             src="https://www.tsm.ac.id/wp-content/uploads/2023/10/bg-gedung-tsm-jakarta-rev02.png"
+            alt='gedung'
             width={233}
             height={400}
             className="rounded-2xl"
@@ -33,6 +34,7 @@ export default function Home() {
         <div className='hidden md:flex lg:flex items-center pl-10 pt-10 justify-start'>
           <Image
             src="https://www.tsm.ac.id/wp-content/uploads/2023/10/bg-gedung-tsm-bekasi-rev02.png"
+            alt='gedung'
             width={233}
             height={400}
             className="rounded-2xl"
@@ -91,7 +93,7 @@ export default function Home() {
               <div className="text-white text-md pt-6 text-xs lg:text-xl lg:text-start leading-loose lg:leading-10 text-center">Sesuai Nilai & Kultur Sekolah Tinggi Ilmu Ekonomi Trisakti, Kami akan terus berupaya menyelenggarakan pendidikan tinggi secara profesional yang berkualitas internasional, sehingga menghasilkan lulusan yang kompeten, berdaya saing, dan berkarakter unggul.
               </div>
               <div className="flex justify-center lg:justify-start">
-                <button className=" w-[60%] lg:w-[40%] flex justify-center rounded-md p-2 lg:p-2 border mt-5 mb-5 font-bold border-white text-white text-sm hover:bg-white hover:text-black transition-colors duration-300"><Link href="/kultur-nilai">LIHAT LEBIH LANJUT</Link></button>
+                <Link href="/kultur-nilai"><button className=" w-[60%] lg:w-[100%] flex justify-center rounded-md p-2 lg:p-2 border mt-5 mb-5 font-bold border-white text-white text-sm hover:bg-white hover:text-black transition-colors duration-300">LIHAT LEBIH LANJUT</button></Link>
               </div>
             </div>
           </div>
@@ -208,7 +210,7 @@ export default function Home() {
 
             </p>
             <div className="card-actions justify-start">
-              <button className="btn btn-outline border-white text-white w-40 hover:bg-white hover:text-black"><Link href="/akuntansi">Lihat Detail</Link></button>
+              <Link href="/akuntansi">  <button className="btn btn-outline border-white text-white w-40 hover:bg-white hover:text-black">Lihat Detail</button></Link>
             </div>
           </div>
         </div>
@@ -226,7 +228,7 @@ export default function Home() {
             </h2>
             <p>Program Studi S1 Manajemen menyiapkan para mahasiswa untuk menjadi lulusan yang berkelas dunia sehingga mampu memperoleh sertifikasi profesional di bidang manajemen bisnis, yaitu keuangan, pemasaran & sumber daya manusia.</p>
             <div className="card-actions justify-start">
-              <button className="btn btn-outline border-white text-white w-40 hover:bg-white hover:text-black"><Link href="/manajemen">Lihat Detail</Link></button>
+              <Link href="/manajemen"><button className="btn btn-outline border-white text-white w-40 hover:bg-white hover:text-black">Lihat Detail</button></Link>
             </div>
           </div>
         </div>
@@ -255,7 +257,7 @@ export default function Home() {
           />
           <div className="absolute flex-col gap-10 inset-0 hover:bg-black rounded-2xl hover:bg-opacity-40 flex justify-center items-center">
             <p className="text-white text-xl lg:text-3xl font-bold">Portal Mahasiswa</p>
-            <button className="btn btn-outline border-white text-white w-40 hover:bg-white hover:text-black"><Link href="/login-mhs">LOGIN</Link></button>
+            <Link href="/login-mhs"> <button className="btn btn-outline border-white text-white w-40 hover:bg-white hover:text-black">LOGIN</button></Link>
           </div>
         </div>
 
@@ -268,7 +270,7 @@ export default function Home() {
           />
           <div className="absolute flex-col gap-10 inset-0 hover:bg-black hover:bg-opacity-40 rounded-2xl flex justify-center items-center">
             <div className="text-white text-xl lg:text-3xl font-bold">Portal Orang Tua</div>
-            <button className="btn btn-outline border-white text-white w-40 hover:bg-white hover:text-black"><Link href="/login-ot">LOGIN</Link></button>
+            <Link href="/login-ot"> <button className="btn btn-outline border-white text-white w-40 hover:bg-white hover:text-black">LOGIN</button></Link>
 
           </div>
         </div>
