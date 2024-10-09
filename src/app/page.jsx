@@ -7,8 +7,6 @@ import BannerSection from "@/features/home/components/bannersection";
 import Youtube from "@/features/home/components/nilai-cult";
 import Testimoni from "@/features/home/components/testimoni";
 import Link from "next/link";
-import Program from "@/features/home/components/program";
-import Portal from "@/features/home/components/portal-mhs";
 import Portalmahasiswa from '@/images/portalmahasiswa.png'
 import Portalorangtua from '@/images/portalorangtua.jpg'
 
@@ -23,8 +21,8 @@ export default function Home() {
       <BannerSection />
 
       <section>
-        <div className="relative w-full md:h-[600px] lg:h-[500px] h-[700px] z-10">
-          <div className="absolute inset-0 bg-black bg-opacity-60 grid grid-rows-2 justify-center lg:grid lg:grid-cols-3 items-center flex-col lg:flex-row px-14 lg:pt-32 lg:px-28">
+        <div className="relative w-full md:h-[900px] lg:h-[500px] h-[650px] z-10">
+          <div className="absolute inset-0 bg-black bg-opacity-60 grid grid-rows-2 justify-center lg:grid lg:grid-cols-3 items-center flex-col lg:flex-row px-14 md:pt-28 lg:pt-32 lg:px-28">
             <div>
               <Youtube videoId="76NQlQ5RY1U" />
             </div>
@@ -132,8 +130,8 @@ export default function Home() {
               src={Akuntansi}
               alt="Akuntansi"
               loading="lazy"
-              width={500}
-              height={333}
+              width={410}
+              height={273}
               className="w-full h-auto"
               decoding="async"
               srcSet={`
