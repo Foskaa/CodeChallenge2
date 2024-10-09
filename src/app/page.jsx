@@ -128,7 +128,7 @@ export default function Home() {
               />
             </div>
             <div className="ml-4">
-              <p className="text-lg font-semibold">Kevin Edrick</p>
+              <p className="text-black text-lg font-semibold">Kevin Edrick</p>
               <p className="text-black">(Batch 2016)</p>
             </div>
           </div>
@@ -150,7 +150,7 @@ export default function Home() {
               />
             </div>
             <div className="ml-4">
-              <p className="text-lg font-semibold">Sherlia Lie</p>
+              <p className="text-black text-lg font-semibold">Sherlia Lie</p>
               <p className="text-black">(Batch 2018)</p>
             </div>
           </div>
@@ -172,7 +172,7 @@ export default function Home() {
               />
             </div>
             <div className="ml-4">
-              <p className="text-lg font-semibold">Ellen</p>
+              <p className="text-black text-lg font-semibold">Ellen</p>
               <p className="text-black">(Batch 2019)</p>
             </div>
           </div>

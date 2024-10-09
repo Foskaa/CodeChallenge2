@@ -83,7 +83,7 @@ export default async function Teams() {
         <>
             <div className="flex items-center pt-16 lg:py-0 lg:pt-32">
                 <span className="flex-grow border-b border-gray-400"></span>
-                <span className="mx-2 font-bold text-2xl text-gray-700">DAFTAR PIMPINAN</span>
+                <span className="mx-2 font-bold text-2xl text-black">DAFTAR PIMPINAN</span>
                 <span className="flex-grow border-b border-gray-400"></span>
             </div>
 
@@ -103,10 +103,10 @@ export default async function Teams() {
                                     />
                                 </div>
                                 <div className="bg-neutral-500 w-[500px] relative rounded-r-lg drop-shadow-2xl">
-                                    <div className="px-6 pt-6 text-white font-bold text-xl">
+                                    <div className="px-6 pt-3 lg:pt-6 text-white font-bold md:text-lg lg:text-xl">
                                         {item.name.first} {item.name.last}
                                     </div>
-                                    <div className="px-6 font-medium text-lg text-white italic">
+                                    <div className="px-6 font-medium md:text-lg lg:text-lg text-white italic">
                                         {kerja[index].jabatan}
                                     </div>
                                     <div className="absolute text-white font right-4 bottom-[10%] flex flex-col justify-end text-xs md:text-lg ">
