@@ -114,14 +114,14 @@ export default function Manajemen() {
                         <input type="radio" name="my-accordion-4" defaultChecked />
                         <div className="collapse-title text-xl font-bold">Bobby Sudiharto (Batch 2015)</div>
                         <div className="collapse-content">
-                            <p>&#34Saya memilih jurusan Manajemen di TSM karena kurikulumnya sangat relevan dengan kebutuhan industri saat ini. Selain itu, dosen-dosennya berpengalaman dan selalu memberikan pembelajaran yang aplikatif. Saya merasa kemampuan manajerial dan analisis saya sangat berkembang di sini. Fasilitas kampusnya juga mendukung proses belajar, dan banyak program magang yang membantu saya mendapatkan pengalaman langsung di dunia kerja.&#34</p>
+                            <p>&#34;Saya memilih jurusan Manajemen di TSM karena kurikulumnya sangat relevan dengan kebutuhan industri saat ini. Selain itu, dosen-dosennya berpengalaman dan selalu memberikan pembelajaran yang aplikatif. Saya merasa kemampuan manajerial dan analisis saya sangat berkembang di sini. Fasilitas kampusnya juga mendukung proses belajar, dan banyak program magang yang membantu saya mendapatkan pengalaman langsung di dunia kerja.&#34;</p>
                         </div>
                     </div>
                     <div className="collapse collapse-arrow join-item border-base-300 border">
                         <input type="radio" name="my-accordion-4" />
                         <div className="collapse-title text-xl font-bold">Lavenia (Batch 2015)</div>
                         <div className="collapse-content">
-                            <p>&#34Belajar di jurusan Manajemen di TSM telah memberi saya banyak wawasan tentang bagaimana mengelola bisnis secara efektif, dari aspek perencanaan hingga pengambilan keputusan strategis. Lingkungan akademiknya kondusif, dan banyak seminar serta pelatihan yang membantu saya mengembangkan soft skills seperti kepemimpinan dan komunikasi. Saya juga merasa jaringan alumni TSM sangat kuat, sehingga membuka banyak peluang karier setelah lulus.&#34</p>
+                            <p>&#34;Belajar di jurusan Manajemen di TSM telah memberi saya banyak wawasan tentang bagaimana mengelola bisnis secara efektif, dari aspek perencanaan hingga pengambilan keputusan strategis. Lingkungan akademiknya kondusif, dan banyak seminar serta pelatihan yang membantu saya mengembangkan soft skills seperti kepemimpinan dan komunikasi. Saya juga merasa jaringan alumni TSM sangat kuat, sehingga membuka banyak peluang karier setelah lulus.&#34;</p>
                         </div>
                     </div>
                 </div>
