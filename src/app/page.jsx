@@ -20,6 +20,66 @@ export default function Home() {
     <main className="pt-11 lg:pt-0 bg-white">
       <BannerSection />
 
+
+      <section className='grid grid-cols-2 lg:grid-cols-4 px-10 '>
+        
+        <div className='hidden md:flex lg:flex items-center pb-10 justify-end'>
+          <Image
+            src="https://www.tsm.ac.id/wp-content/uploads/2023/10/bg-gedung-tsm-jakarta-rev02.png"
+            width={233}
+            height={400}
+            className="rounded-2xl"
+          /></div>
+        <div className='hidden md:flex lg:flex items-center pl-10 pt-10 justify-start'>
+          <Image
+            src="https://www.tsm.ac.id/wp-content/uploads/2023/10/bg-gedung-tsm-bekasi-rev02.png"
+            width={233}
+            height={400}
+            className="rounded-2xl"
+          />
+        </div>
+        <div className='col-span-2 flex justify-center flex-col items-center px-10 text-center'>
+          <div className='font-bold py-5 text-4xl'>
+            Mengapa Kami?
+          </div>
+          <div className=''>
+            Sekolah Tinggi Ilmu Ekonomi (STIE) Trisakti atau Trisakti School of Management (TSM) merupakan perguruan tinggi yang telah mendapatkan akreditasi A baik jurusan S1 Akuntansi dan S1 Manajemen.
+          </div>
+          <div className='grid grid-cols-2 grid-rows-3 gap-10'>
+            <div className='flex flex-col justify-center'>
+              <div className='text-4xl font-bold'>2</div>
+              <div>Lokasi Kampus</div>
+            </div>
+            <div className='flex flex-col justify-center'>
+              <div className='text-4xl font-bold'>1,27%</div>
+              <div>Dari Kampus Terakreditasi A</div>
+            </div>
+            <div className='flex flex-col justify-center'>
+              <div className='text-4xl font-bold'>38000+</div>
+              <div>Lulusan dari TSM yang kompeten, berdaya saing & Kompeten</div>
+            </div>
+            <div className='flex flex-col justify-center'>
+              <div className='text-4xl font-bold'>25</div>
+              <div>Kerjasama TSM dengan Lembaga Pendidikan & Perusahaan</div>
+            </div>
+            <div className='flex flex-col justify-center'>
+              <div className='text-4xl font-bold'>95</div>
+              <div>Total Penghargaan & Pencapaian</div>
+            </div>
+            <div className='flex flex-col justify-center'>
+              <div className='text-4xl font-bold'>8</div>
+              <div>Program Beasiswa</div>
+            </div>
+          </div>
+          <div className='py-5'>
+            <Link href='/pimpinan'><button className='btn btn-outline border-black text-black w-40 hover:bg-black hover:text-white'>Pimpinan Kami</button></Link>
+          </div>
+        </div>
+      </section>
+
+
+
+
       <section>
         <div className="relative w-full md:h-[900px] lg:h-[500px] h-[650px] z-10">
           <div className="absolute inset-0 bg-black bg-opacity-60 grid grid-rows-2 justify-center lg:grid lg:grid-cols-3 items-center flex-col lg:flex-row px-14 md:pt-28 lg:pt-32 lg:px-28">
@@ -31,7 +91,7 @@ export default function Home() {
               <div className="text-white text-md pt-6 text-xs lg:text-xl lg:text-start leading-loose lg:leading-10 text-center">Sesuai Nilai & Kultur Sekolah Tinggi Ilmu Ekonomi Trisakti, Kami akan terus berupaya menyelenggarakan pendidikan tinggi secara profesional yang berkualitas internasional, sehingga menghasilkan lulusan yang kompeten, berdaya saing, dan berkarakter unggul.
               </div>
               <div className="flex justify-center lg:justify-start">
-                <button className=" w-[50%] lg:w-[40%] flex justify-center rounded-md p-2 lg:p-2 border mt-5 font-bold border-white text-white text-sm hover:bg-white hover:text-black transition-colors duration-300"><Link href="/kultur-nilai">LIHAT LEBIH LANJUT</Link></button>
+                <button className=" w-[60%] lg:w-[40%] flex justify-center rounded-md p-2 lg:p-2 border mt-5 mb-5 font-bold border-white text-white text-sm hover:bg-white hover:text-black transition-colors duration-300"><Link href="/kultur-nilai">LIHAT LEBIH LANJUT</Link></button>
               </div>
             </div>
           </div>
@@ -127,7 +187,7 @@ export default function Home() {
         <div className="card bg-neutral-700 text-white shadow-xl">
           <figure>
             <Image
-              src='{Akuntansi}'
+              src={Akuntansi}
               alt="Akuntansi"
               loading="lazy"
               width={410}
