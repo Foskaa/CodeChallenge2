@@ -7,12 +7,11 @@ export default function BannerSection() {
             <Image
                 src={Banner}
                 alt="Banner"
-                loading="lazy"
                 className="flex"
                 decoding="async"
                 priority={true}
-                width={1536}
-                height={786}
+                width={1400}
+                height={716}
                 srcSet={`
     /_next/image?url=${Banner}&w=640&q=75 640w,
     /_next/image?url=${Banner}&w=1280&q=75 1280w,

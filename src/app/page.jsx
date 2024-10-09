@@ -132,14 +132,15 @@ export default function Home() {
               src={Akuntansi}
               alt="Akuntansi"
               loading="lazy"
-              width={800}
-              height={533}
-              decoding="async"
-              priority 
+              width={500}
+              height={333}
+              className="w-full h-auto"
+              decoding="async" 
               srcSet={`
     /_next/image?url=${Akuntansi}&w=400&q=75 400w,
     /_next/image?url=${Akuntansi}&w=800&q=75 800w
   `}
+             
               sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 100vw"
             />
           </figure>
